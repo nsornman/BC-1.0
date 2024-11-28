@@ -43,42 +43,42 @@ body{
     padding-left: 0.5vw;
 }
 /* ------------------------------Login--------------------------------------- */
-.login-path{
+.login-part{
     position:absolute;
     top: 50%; 
     right: 12vw; 
     transform: translateY(-50%);
     font-family:'Poppins', sans-serif ;
 }
-.login-path .Welcome{
+.login-part .Welcome{
     font-size: 3vw;
 }
-.login-path .line{
+.login-part .line{
     width: 15vw;
     height: 0.1vw;
     background-color: #000;
     margin: 8px 0;
 }
-.login-path input{
+.login-part input{
     background-color: #F1F6FF;
     border: none;
     margin: 8px 0;
     padding: 10px 15px;
     border-radius: 4px;
 }
-.login-path .student-id{
+.login-part .student-id{
     font-size: 1.1vw;
 }
 .student-id input{
     width: 10vw;
 }
-.login-path .password{
+.login-part .password{
     font-size: 1.1vw;
 }
-.login-path input{
+.login-part input{
     width: 15vw;
 }
-.login-path button{
+.login-part button{
     background-color: rgba(4, 21, 48, 1);
     color: #fff;
     font-size: 1.1vw;
@@ -89,7 +89,7 @@ body{
     margin-left: 10vw;
     margin-top: 2vw;
 }
-.login-path button:hover{
+.login-part button:hover{
     background-color:rgb(58, 95, 156);;
     color: rgb(255, 255, 255);
     transition: 0.2s;
