@@ -66,3 +66,29 @@ body{
     padding: 10px 15px;
     border-radius: 4px;
 }
+.login-path .student-id{
+    font-size: 1.1vw;
+}
+.student-id input{
+    width: 10vw;
+}
+.login-path .password{
+    font-size: 1.1vw;
+}
+.login-path input{
+    width: 10vw;
+}
+.login-path button{
+    background-color: rgba(4, 21, 48, 1);
+    color: #fff;
+    font-size: 1.1vw;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.login-path button:hover{
+    background-color:rgb(58, 95, 156);;
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+}
