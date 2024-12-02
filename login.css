@@ -53,13 +53,14 @@ body{
         background-attachment: fixed;
     }
     .navbar{
+            
         display: flex;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 1.2vw;
         color: #fff;
         background-color: rgba(22, 40, 68, 1);
         width: 100%;
-        height: 5vw;
+        height: 15vw;
         position: fixed;
         top: 0;
         left: 0;
@@ -67,6 +68,16 @@ body{
     }
     .navbar .school_name{
         display: none;
+    }
+    .navbar .logo{
+        width: 7vw;
+        height: 9vw;
+    }
+    .navbar .head{
+        left: 50%;
+        top: -4.5vw;
+        font-size: 7vw;
+        transform: translateX(-50%);
     }
 }
 /* ------------------------------Login--------------------------------------- */
